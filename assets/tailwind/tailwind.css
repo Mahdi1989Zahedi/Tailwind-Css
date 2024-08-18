@@ -1,0 +1,53 @@
+@font-face {
+    font-family: iransans;
+    src: url(../font/iransans.woff2);
+    src: url(../font/IRANSansWebFaNum.eot);
+    src: url(../font/IRANSansWebFaNum.ttf);
+    src: url(../font/IRANSansWebFaNum.woff);
+}
+
+@font-face {
+    font-family: font-2;
+    src: url(../font/font-2/fad613fbe6be4ad15748e9ccdfd8b9fa.woff2);
+
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    body {
+        @apply text-black bg-white dark:bg-darkColor dark:text-white font-farsi;
+    }
+
+    html {
+        @apply scroll-smooth
+    }
+
+    section.home {
+        @apply pt-16 pb-4 md:pt-20;
+    }
+}
+
+.box-food {
+    @apply grid place-items-center bg-blackColor rounded-3xl hover:bg-yellow-400 ease-linear duration-200 lg:h-60 lg:w-60;
+}
+
+.image-food {
+    @apply hover:scale-110 ease-linear duration-200 md:w-48 lg:w-3/4
+}
+
+div.btn-buy {
+    @apply bg-green-600 w-32 p-1 pr-2 rounded-md border-none 
+}
+.btn-class {
+    @apply bg-gray-900 p-2 rounded-lg text-white font-bold cursor-pointer
+}
+div.btn-faverid {
+    @apply bg-white text-red-600 text-lg w-10 p-1 pr-2 mr-2 rounded-md 
+}
+div.button ul li:hover,
+div.button ul li.active {
+    @apply bg-yellow-400 text-gray-900
+}
