@@ -1,0 +1,1808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <!-- start header -->
+    <header class="header fixed top-0 left-0 w-full z-50 bg-blackColor text-white">
+        <nav class="navbar container relative h-14 flex justify-between items-center">
+            <div class="logo">
+                <a href="#" class="uppercase text-orange-600">
+                    <img src="./assets/images/logo/logo-promix.jpg" alt="">
+                </a>
+            </div>
+            <div class="list-items hidden absolute top-0 left-0 w-full py-14  border-b md:block md:static md:py-0 md:border-none md:w-auto md:ml-auto whiteColor2 rounded-xl bg-blackColor text-white"
+                id="list">
+                <ul class="flex flex-col text-center gap-5 md:flex-row">
+
+                    <li>
+                        <a href="#" class="hover:text-orange-600 ease-in">
+                            ورود / ثبت نام
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="hover:text-orange-600 ease-in">درباره ما</a>
+                    </li>
+                    <li>
+                        <a href="#menu" class="hover:text-orange-600 ease-in">محصولات</a>
+                    </li>
+                    <li>
+                        <a href="#home" class="hover:text-orange-600 ease-in">صفحه اصلی</a>
+                    </li>
+                </ul>
+                <div class="close-btn absolute top-[0.7rem] right-4 text-2xl cursor-pointer md:hidden" id="close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="moon-icon flex items-center gap-5 text-xl hover:text-orange-600">
+                <i class="fa-solid fa-moon pl-4 cursor-pointer" id="theme-toggle"></i>
+
+                <div class="menu-icon md:hidden" id="menu-icon">
+                    <i class="fa-solid fa-bars cursor-pointer"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End of header -->
+
+
+
+    <!-- Start Home -->
+    <section class="home pt-16 pb-4 my-20 md:pt-20 lg:mt-44" id="home">
+        <div class="container flex flex-col items-center gap-10 md:flex-row">
+            <div class="logo mx-auto md:w-1/2 lg:w-2/5 animate-movingY">
+                <img src="./assets/images/banner-img/banner-img.png" alt="banner-img"
+                    class="w-60 md:w-full home__image">
+            </div>
+            <div class="home__title text-center md:w-1/2 lg:w-3/5">
+                <h1 class="text-4xl font-bold uppercase lg:text-6xl">welcome to promix</h1>
+                <div>
+                    <br>
+                    <div class="w-70 h-2 bg-blackColor rounded-xl mx-auto dark:bg-secondaryColor"></div>
+                    <br>
+                </div>
+                <p>پرو میکس ، شما مشتریان عزیز رو به فروشگاه ها متصل می کنه تا راحت ترین و سریع ترین خرید آنلاین رو
+                    تجربه
+                    کنید
+                    فقط در چند دقیقه سبد خریدتون رو از مجموعه تکمیل کنید و در کمترین زمان ممکن تحویل بگیرید.
+                </p>
+                <div class="flex justify-center items-center pt-10">
+                    <div class="p-3 pr-4">
+                        <i class="fa-solid fa-truck-fast text-orange-600 text-4xl"></i>
+                        <br>
+                        <br>
+                        <span>ارسال سریع</span>
+                    </div>
+                    <div class="p-3">
+                        <i class="fa-solid fa-gear text-4xl"></i>
+                        <br>
+                        <br>
+                        <span>خدمات</span>
+                    </div>
+                    <div class="p-3">
+                        <i class="fa-solid fa-phone text-4xl text-red-700"></i>
+                        <br>
+                        <br>
+                        <span>پشتیبانی</span>
+                    </div>
+                </div>
+                <button
+                    class="mt-6 bg-blackColor text-white p-3 rounded-2xl font-bold hover:w-40 ease-in duration-700 dark:bg-secondaryColor dark:text-black">
+                    اطلاعات بیشتر
+                </button>
+            </div>
+        </div>
+        <div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+    </section>
+    <!-- End of Home -->
+
+
+    <!-- faverite box -->
+    <section class="faverite">
+        <div class="container" style="direction: rtl;">
+            <h3 class="font-bold text-lg pb-5">
+                <span>دسته بندی های محبوب</span>
+            </h3>
+            <div class="grid-cols-2 grid lg:grid-cols-4 gap-10">
+                <!-- Card-2 -->
+                <div class="relative rounded">
+                    <img src="./assets/images/populer/keis-1.png" alt=""
+                        class="w-full h-[100%] object-cover sm:h-47 rounded-md hover:shadow-2xl hover:scale-110 transition ease-in duration-400" />
+                    <div class="dark:text-secondaryColor font-bold text-sm absolute top-45 right-12 mt-2">
+                        <i class="fa-solid fa-check dark:text-yellow-400 pl-1"></i>
+                        <span>کیس های آماده</span>
+                    </div>
+                </div>
+
+                <!-- Card-3 -->
+                <div class="relative rounded">
+                    <img src="./assets/images/populer/matherbord.png" alt=""
+                        class="w-full h-[100%] object-cover sm:h-47 rounded-md hover:shadow-2xl hover:scale-110 transition ease-in duration-400" />
+                    <div class="dark:text-secondaryColor font-bold text-sm absolute top-45 right-16 mt-2 text-center">
+                        <i class="fa-solid fa-check dark:text-yellow-400 pl-1"></i>
+                        <span>مادربرد</span>
+                    </div>
+                </div>
+
+                <!-- Card-4 -->
+                <div class="relative rounded">
+                    <img src="./assets/images/populer/ram-1.png" alt=""
+                        class="w-full h-[100%] object-cover sm:h-47 rounded-md hover:shadow-2xl hover:scale-110 transition ease-in duration-400" />
+                    <div class="dark:text-secondaryColor font-bold text-sm absolute top-45 right-20 mt-2">
+                        <i class="fa-solid fa-check dark:text-yellow-400 pl-1"></i>
+                        <span>رم</span>
+                    </div>
+                </div>
+
+                <!-- Card-5 -->
+                <div class="relative rounded">
+                    <img src="./assets/images/populer/cpu-1.png" alt=""
+                        class="w-full h-[100%] object-cover sm:h-47 rounded-md hover:shadow-2xl hover:scale-110 transition ease-in duration-400" />
+                    <div class="dark:text-secondaryColor font-bold text-sm absolute top-45 right-16 mt-2">
+                        <i class="fa-solid fa-check dark:text-yellow-400 pl-1"></i>
+                        <span>پردازنده</span>
+                    </div>
+                </div>
+
+                <!-- Card-6 -->
+                <div class="relative rounded">
+                    <img src="./assets/images/populer/grafic-1.png" alt=""
+                        class="w-full h-[100%] object-cover sm:h-47 rounded-md hover:shadow-2xl hover:scale-110 transition ease-in duration-400" />
+                    <div class="dark:text-secondaryColor font-bold text-sm absolute top-45 right-12 mt-2">
+                        <i class="fa-solid fa-check dark:text-yellow-400 pl-1"></i>
+                        <span>کارت گرافیک</span>
+                    </div>
+                </div>
+
+                <!-- Card-1 -->
+                <div class="relative rounded">
+                    <img src="./assets/images/populer/cooling.png" alt=""
+                        class="w-[90%] h-[100%] object-cover sm:h-47 rounded-md hover:shadow-2xl hover:scale-110 transition ease-in duration-400" />
+                    <div class="dark:text-secondaryColor font-bold text-sm absolute top-45 right-8 mt-2">
+                        <i class="fa-solid fa-check dark:text-yellow-400 pl-1"></i>
+                        <span>خنک کننده پردازنده</span>
+                    </div>
+                </div>
+
+                <!-- Card-1 -->
+                <div class="relative rounded">
+                    <img src="./assets/images/populer/laptop.png" alt=""
+                        class="w-[90%] h-[100%] object-cover sm:h-47 rounded-md hover:shadow-2xl hover:scale-110 transition ease-in duration-400" />
+                    <div class="dark:text-secondaryColor font-bold text-sm absolute top-45 right-12 mt-2">
+                        <i class="fa-solid fa-check dark:text-yellow-400 pl-1"></i>
+                        <span>لپ تاب گیمینگ</span>
+                    </div>
+                </div>
+
+                <!-- Card-1 -->
+                <div class="relative rounded">
+                    <img src="./assets/images/populer/xbox.png" alt=""
+                        class="w-[90%] h-[100%] object-cover sm:h-47 rounded-md hover:shadow-2xl hover:scale-110 transition ease-in duration-400" />
+                    <div class="dark:text-secondaryColor font-bold text-sm absolute top-45 right-12 mt-2">
+                        <i class="fa-solid fa-check dark:text-yellow-400 pl-1"></i>
+                        <span>کنسول بازی خانگی</span>
+                    </div>
+                </div>
+                <div>
+                    <br><br><br><br><br>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- faverite box  -->
+
+
+    <!-- suggestion-box -->
+    <section class="my-[150px] card-1">
+        <div class="container flex flex-col gap-5 md:flex-row">
+            <!-- card-1 -->
+            <div class=" bg-yellow-400 flex py-3 rounded-xl overflow-hidden md:w-[33%] justify-between">
+                <div class="w-1/3 relative">
+                    <img src="./assets/images/populer/ssd-1.png" alt="suggest-1"
+                        class="absolute w-full bottom-0.5 left-4">
+                </div>
+                <div class="pr-4" style="direction: rtl;">
+                    <div class="mb-2 text-black">
+                        <h4 class="text-xl font-bold">اس اس دی M2</h4>
+                        <p>فروش ویژه</p>
+                        <br>
+                        <a href="#"
+                            class=" text-black bg-white p-2 rounded-lg hover:bg-blackColor hover:text-white ease-in">
+                            <i class="fa-solid fa-cart-shopping w-12 pr-3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- card-2 -->
+            <div class=" bg-red-600 flex py-3 rounded-xl overflow-hidden md:w-[33%]  justify-between">
+                <div class="w-1/3 relative">
+                    <img src="./assets/images/populer/control.png" alt="hamberger-title"
+                        class="absolute w-28 bottom-0.5 left-4">
+                </div>
+                <div class="pr-4" style="direction: rtl;">
+                    <div class="mb-2 text-black">
+                        <h4 class="text-xl font-bold">دسته پلی استیشن</h4>
+                        <p>فروش ویژه</p>
+                        <br>
+                        <a href="#"
+                            class="text-black bg-white p-2 rounded-lg hover:bg-blackColor hover:text-white ease-in">
+                            <i class="fa-solid fa-cart-shopping w-12 pr-3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- card-3 -->
+            <div class=" bg-green-500 flex py-3 rounded-xl overflow-hidden md:w-[33%]  justify-between">
+                <div class="w-1/3 relative">
+                    <img src="./assets/images/populer/keis-1.png" alt="hamberger-title"
+                        class="absolute w-28 bottom-0.5 left-4">
+                </div>
+                <div class="pr-4" style="direction: rtl;">
+                    <div class="mb-2">
+                        <h4 class="text-2xl font-bold">کیس گیمینگ</h4>
+                        <p>فروش ویژه</p>
+                        <br>
+                        <a href="#"
+                            class="text-black bg-white p-2 rounded-lg hover:bg-blackColor hover:text-white ease-in">
+                            <i class="fa-solid fa-cart-shopping w-12 pr-3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- suggestion-box -->
+
+
+    <!-- off-box -->
+    <section class="card-2">
+        <div class="container flex flex-col gap-5 md:flex-row md:gap-10">
+            <!-- card 1 -->
+            <div class="flex flex-col p-5 rounded-lg border border-spacing-5 md:flex-row md:items-center shadow-2xl">
+                <img src="./assets/images/banner-img/banner-2.png" alt="" class="w-5/12 mx-auto hover:animate-movingY">
+                <div style="direction: rtl;">
+                    <p>
+                        <i class="fa-solid fa-percent text-yellow-500 text-2xl pl-1"></i>
+                        <span>تخفیف روزانه </span>
+                    </p>
+                    <h3>همین الان سفارش بده و 20% تخفیف بگیر</h3>
+                    <p>شما می توانید در طول هفته از تخفیف های استثنائی ما بهره مند شوید</p>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="#" class="bg-secondaryColor p-2 text-black rounded-lg text-sm">خرید آنلاین</a>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="flex flex-col p-5 rounded-lg border border-spacing-5 md:flex-row md:items-center shadow-2xl">
+                <img src="./assets/images/banner-img/banner-3.png" alt="" class="w-40 mx-auto hover:animate-movingY">
+                <div style="direction: rtl;">
+                    <p>
+                        <i class="fa-solid fa-percent text-yellow-500 text-2xl pl-1"></i>
+                        <span>تخفیف روزانه </span>
+                    </p>
+                    <h3>همین الان سفارش بده و 20% تخفیف بگیر</h3>
+                    <p>شما می توانید در طول هفته از تخفیف های استثنائی ما بهره مند شوید</p>
+                    <br>
+                    <a href="#" class="bg-secondaryColor p-2 text-black rounded-lg text-sm">خرید آنلاین</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+        </div>
+    </section>
+    <!-- End off-box -->
+
+    <!-- start about us -->
+    <section class="py-10 card-3" id="about">
+        <div class="container flex flex-col gap-10 md:flex-row">
+            <div class="flex-1">
+                <img src="./assets/images/banner-img/banner-4.png" alt="" class="rounded-lg">
+            </div>
+            <div class="flex-1 md:mt-16" style="direction: rtl;">
+                <h2 class="font-bold text-lg">چرا پرو میکس</h2>
+                <br>
+                <p class="text-justify">
+                    پرو میکس، شما مشتریان عزیز رو به فروشگاه ها متصل می کنه تا راحت ترین و سریع ترین خرید آنلاین رو
+                    تجربه
+                    کنید. فقط در چند دقیقه سبد خریدتون رو از چندین مجموعه تکمیل کنید و در کمترین زمان ممکن تحویل بگیرید
+                </p>
+                <ul class="grid grid-cols-2 py-5 space-y-1">
+                    <li>
+                        <i class="fa-solid fa-check text-yellow-400"></i>
+                        <span>ارسال سریع</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check text-yellow-400"></i>
+                        <span>پشتیبانی قوی</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check text-yellow-400"></i>
+                        <span>پرداخت راحت</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check text-yellow-400 "></i>
+                        <span>دسترسی آسان</span>
+                    </li>
+                    <div class="py-5">
+                        <a href="#"
+                            class="btn-class bg-blackColor text-white dark:bg-secondaryColor dark:text-darkColor">درباره
+                            ما</a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <br><br><br><br><br><br><br><br>
+        </div>
+    </section>
+    <!-- End about us -->
+
+
+    <!-- menu-swipper matherbord -->
+    <section class="menu-swipper matherbord">
+        <div class="container">
+            <div class="menu-swipper">
+                <div class="menu p-5">
+                    <h6 class="text-lg font-bold pb-1 mb-2">مادربرد</h6>
+                    <hr class="dark:text-orange-500">
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper mb-20">
+
+                        <div class="swiper-slide">
+                            <div class="box-food w-full">
+                                <img src="./assets/images/matherbord/asus-prime-b760m-a-wifi.jpg" alt=""
+                                    class="image-food w-full rounded-lg">
+                            </div>
+                            <div class="about">
+                                <p class="name">مادربرد ایسوس مدل ASUS PRIME Z790-P WIFI</p>
+                                <p class="gheimat">16.500.000 تومان</p>
+                                <div class="btn">
+                                    <a class="buy" href="#"><i class="fa-solid fa-cart-shopping pl-2">افزودن به سبد
+                                            خرید</i><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="box-food w-full">
+                                <img src="./assets/images/matherbord/primex670pwifi.jpg" alt=""
+                                    class="image-food w-full rounded-lg">
+                            </div>
+                            <div class="about">
+                                <p class="name">مادربرد ایسوس مدل ASUS PRIME Z790-P WIFI</p>
+                                <p class="gheimat">16.500.000 تومان</p>
+                                <div class="btn">
+                                    <a class="buy" href="#"><i class="fa-solid fa-cart-shopping pl-2">افزودن به سبد
+                                            خرید</i><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="box-food w-full">
+                                <img src="./assets/images/matherbord/primez790pwifi.jpg" alt=""
+                                    class="image-food w-full rounded-lg">
+                            </div>
+                            <div class="about">
+                                <p class="name">مادربرد ایسوس مدل ASUS PRIME Z790-P WIFI</p>
+                                <p class="gheimat">16.500.000 تومان</p>
+                                <div class="btn">
+                                    <a class="buy" href="#"><i class="fa-solid fa-cart-shopping pl-2">افزودن به سبد
+                                            خرید</i><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="box-food w-full">
+                                <img src="./assets/images/matherbord/tuf-gaming-b650-e-wifi.jpg" alt=""
+                                    class="image-food w-full rounded-lg">
+                            </div>
+                            <div class="about">
+                                <p class="name">مادربرد ایسوس مدل ASUS PRIME Z790-P WIFI</p>
+                                <p class="gheimat">16.500.000 تومان</p>
+                                <div class="btn">
+                                    <a class="buy" href="#"><i class="fa-solid fa-cart-shopping pl-2">افزودن به سبد
+                                            خرید</i><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="box-food w-full">
+                                <img src="./assets/images/matherbord/tuf-gaming-b650m-plus-wifi.jpg" alt=""
+                                    class="image-food w-full rounded-lg">
+                            </div>
+                            <div class="about">
+                                <p class="name">مادربرد ایسوس مدل ASUS PRIME Z790-P WIFI</p>
+                                <p class="gheimat">16.500.000 تومان</p>
+                                <div class="btn">
+                                    <a class="buy" href="#"><i class="fa-solid fa-cart-shopping pl-2">افزودن به سبد
+                                            خرید</i><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="box-food w-full">
+                                <img src="./assets/images/matherbord/tufgamingh770prowifi.jpg" alt=""
+                                    class="image-food w-full rounded-lg">
+                            </div>
+                            <div class="about">
+                                <p class="name">مادربرد ایسوس مدل ASUS PRIME Z790-P WIFI</p>
+                                <p class="gheimat">16.500.000 تومان</p>
+                                <div class="btn">
+                                    <a class="buy" href="#"><i class="fa-solid fa-cart-shopping pl-2">افزودن به سبد
+                                            خرید</i><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="box-food w-full">
+                                <img src="./assets/images/matherbord/tufgamingx670epluswifi.jpg" alt=""
+                                    class="image-food w-full rounded-lg">
+                            </div>
+                            <div class="about">
+                                <p class="name">مادربرد ایسوس مدل ASUS PRIME Z790-P WIFI</p>
+                                <p class="gheimat">16.500.000 تومان</p>
+                                <div class="btn">
+                                    <a class="buy" href="#"><i class="fa-solid fa-cart-shopping pl-2">افزودن به سبد
+                                            خرید</i><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="box-food w-full">
+                                <img src="./assets/images/matherbord/z790-eagle-ax.jpg" alt=""
+                                    class="image-food w-full rounded-lg">
+                            </div>
+                            <div class="about">
+                                <p class="name">مادربرد ایسوس مدل ASUS PRIME Z790-P WIFI</p>
+                                <p class="gheimat">16.500.000 تومان</p>
+                                <div class="btn">
+                                    <a class="buy" href="#"><i class="fa-solid fa-cart-shopping pl-2">افزودن به سبد
+                                            خرید</i><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+    <section class="menu-swipper matherbord">
+        <div class="container">
+            <div class="menu-swipper">
+                <div class="menu p-5">
+                    <h6 class="text-lg font-bold pb-1 mb-2">کارت گرافیک</h6>
+                    <hr class="dark:text-orange-500">
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper mb-20">
+
+                        <div class="swiper-slide">
+                            <div class="box-food w-full">
+                                <img src="./assets/images/grafic/dual-rtx3060v2-oc-12gb-gddr6.jpg" alt=""
+                                    class="image-food w-full rounded-lg">
+                            </div>
+                            <div class="about">
+                                <p class="name">ASUS Dual GeForce RTX 4060 Ti OC Edition 16GB GDDR6</p>
+                                <p class="gheimat">16.500.000 تومان</p>
+                                <div class="btn">
+                                    <a class="buy" href="#"><i class="fa-solid fa-cart-shopping pl-2">افزودن به سبد
+                                            خرید</i><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="box-food w-full">
+                                <img src="./assets/images/grafic/geforce-rtx-3050-windforce-oc-6g.jpg" alt=""
+                                    class="image-food w-full rounded-lg">
+                            </div>
+                            <div class="about">
+                                <p class="name">ASUS Dual GeForce RTX 4060 Ti OC Edition 16GB GDDR6</p>
+                                <p class="gheimat">16.500.000 تومان</p>
+                                <div class="btn">
+                                    <a class="buy" href="#"><i class="fa-solid fa-cart-shopping pl-2">افزودن به سبد
+                                            خرید</i><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="box-food w-full">
+                                <img src="./assets/images/grafic/geforce-rtx-4060-eagle-oc-8g.jpg" alt=""
+                                    class="image-food w-full rounded-lg">
+                            </div>
+                            <div class="about">
+                                <p class="name">ASUS Dual GeForce RTX 4060 Ti OC Edition 16GB GDDR6</p>
+                                <p class="gheimat">16.500.000 تومان</p>
+                                <div class="btn">
+                                    <a class="buy" href="#"><i class="fa-solid fa-cart-shopping pl-2">افزودن به سبد
+                                            خرید</i><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="box-food w-full">
+                                <img src="./assets/images/grafic/geforce-rtx-4060-eagle-oc-ice-8g.jpg" alt=""
+                                    class="image-food w-full rounded-lg">
+                            </div>
+                            <div class="about">
+                                <p class="name">ASUS Dual GeForce RTX 4060 Ti OC Edition 16GB GDDR6</p>
+                                <p class="gheimat">16.500.000 تومان</p>
+                                <div class="btn">
+                                    <a class="buy" href="#"><i class="fa-solid fa-cart-shopping pl-2">افزودن به سبد
+                                            خرید</i><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="box-food w-full">
+                                <img src="./assets/images/grafic/geforce-rtx-4060-windforce-oc-8g.jpg" alt=""
+                                    class="image-food w-full rounded-lg">
+                            </div>
+                            <div class="about">
+                                <p class="name">ASUS Dual GeForce RTX 4060 Ti OC Edition 16GB GDDR6</p>
+                                <p class="gheimat">16.500.000 تومان</p>
+                                <div class="btn">
+                                    <a class="buy" href="#"><i class="fa-solid fa-cart-shopping pl-2">افزودن به سبد
+                                            خرید</i><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="box-food w-full">
+                                <img src="./assets/images/grafic/geforcertx4090gamingxtrio24g.jpg" alt=""
+                                    class="image-food w-full rounded-lg">
+                            </div>
+                            <div class="about">
+                                <p class="name">ASUS Dual GeForce RTX 4060 Ti OC Edition 16GB GDDR6</p>
+                                <p class="gheimat">16.500.000 تومان</p>
+                                <div class="btn">
+                                    <a class="buy" href="#"><i class="fa-solid fa-cart-shopping pl-2">افزودن به سبد
+                                            خرید</i><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="box-food w-full">
+                                <img src="./assets/images/grafic/geforce-rtx-4060-windforce-oc-8g.jpg" alt=""
+                                    class="image-food w-full rounded-lg">
+                            </div>
+                            <div class="about">
+                                <p class="name">ASUS Dual GeForce RTX 4060 Ti OC Edition 16GB GDDR6</p>
+                                <p class="gheimat">16.500.000 تومان</p>
+                                <div class="btn">
+                                    <a class="buy" href="#"><i class="fa-solid fa-cart-shopping pl-2">افزودن به سبد
+                                            خرید</i><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="box-food w-full">
+                                <img src="./assets/images/grafic/geforce-rtx-4060-eagle-oc-ice-8g.jpg" alt=""
+                                    class="image-food w-full rounded-lg">
+                            </div>
+                            <div class="about">
+                                <p class="name">ASUS Dual GeForce RTX 4060 Ti OC Edition 16GB GDDR6</p>
+                                <p class="gheimat">16.500.000 تومان</p>
+                                <div class="btn">
+                                    <a class="buy" href="#"><i class="fa-solid fa-cart-shopping pl-2">افزودن به سبد
+                                            خرید</i><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- start menu -->
+    <section class="menu card-3" id="menu" style="direction: rtl;">
+        <div class="container">
+            <div>
+                <h2 class="text-center font-bold text-lg">انتخاب با شما ارسال با ما</h2>
+                <br>
+                <div class="w-60 h-1 bg-yellow-500 mx-auto"></div>
+                <br>
+                <p></p>
+                <div class="button">
+                    <ul class="flex flex-wrap justify-center gap-3 py-10">
+                        <li data-taps="all" class="active btn-class">تمام محصولات</li>
+                        <li data-taps="fast" class="btn-class">کیس آماده</li>
+                        <li data-taps="joos" class="btn-class">کنسول بازی</li>
+                        <li data-taps="food" class="btn-class">لوازم جانبی</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <ul class="item grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 lg:gap-12">
+                    <!-- pc gamming -->
+                    <li class="full fast">
+                        <div class="box-food">
+                            <img src="./assets/images/banner-img/banner-2.png" alt="" class="image-food w-3/4">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">کیس آماده کولرمستر</h4>
+                                <div>
+                                    <h6 class="text-xs">مشخصات : </h6>
+                                    <div>
+                                        <span>پردازنده : </span>
+                                        <span>13700K</span>
+                                    </div>
+                                    <div>
+                                        <span>گرافیک</span>
+                                        <span>4080 super </span>
+                                    </div>
+                                    <div class="py-2 text-yellow-500">
+                                        <span>قیمت : </span>
+                                        <span>150.000.000 تومان</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row">
+                                    <div class="btn-buy">
+                                        <button class="group-hover:text-black btn-buy "><i
+                                                class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                                سبد</span></button>
+                                    </div>
+                                    <div class="group btn-faverid "><i
+                                            class="fa-regular fa-heart group-hover:text-black "></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full fast">
+                        <div class="box-food">
+                            <img src="./assets/images/populer/keis-1.png" alt="" class="image-food md:w-full ">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">کیس آماده دیپکول</h4>
+                                <div>
+                                    <h6 class="text-xs">مشخصات : </h6>
+                                    <div>
+                                        <span>پردازنده : </span>
+                                        <span>13700K</span>
+                                    </div>
+                                    <div>
+                                        <span>گرافیک</span>
+                                        <span>4080 super </span>
+                                    </div>
+                                    <div class="py-2 text-yellow-500">
+                                        <span>قیمت : </span>
+                                        <span>120.000.000 تومان</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row">
+                                    <div class="btn-buy">
+                                        <button class="group-hover:text-black btn-buy "><i
+                                                class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                                سبد</span></button>
+                                    </div>
+                                    <div class="group btn-faverid "><i
+                                            class="fa-regular fa-heart group-hover:text-black "></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full fast">
+                        <div class="box-food">
+                            <img src="./assets/images/banner-img/banner-3.png" alt="" class="image-food w-full">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">کیس گیمینگ لیان لی</h4>
+                                <div>
+                                    <h6 class="text-xs">مشخصات : </h6>
+                                    <div>
+                                        <span>پردازنده : </span>
+                                        <span>13900K</span>
+                                    </div>
+                                    <div>
+                                        <span>گرافیک</span>
+                                        <span>4090 super </span>
+                                    </div>
+                                    <div class="py-2 text-yellow-500">
+                                        <span>قیمت : </span>
+                                        <span>190.000.000 تومان</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row">
+                                    <div class="btn-buy">
+                                        <button class="group-hover:text-black btn-buy "><i
+                                                class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                                سبد</span></button>
+                                    </div>
+                                    <div class="group btn-faverid "><i
+                                            class="fa-regular fa-heart group-hover:text-black "></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full fast">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/case-6.png" alt="" class="image-food w-3/4">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">کیس اقصادی آریا</h4>
+                                <div>
+                                    <h6 class="text-xs">مشخصات : </h6>
+                                    <div>
+                                        <span>پردازنده : </span>
+                                        <span>12400</span>
+                                    </div>
+                                    <div>
+                                        <span>گرافیک</span>
+                                        <span>3090 super </span>
+                                    </div>
+                                    <div class="py-2 text-yellow-500">
+                                        <span>قیمت : </span>
+                                        <span>80.000.000 تومان</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row">
+                                    <div class="btn-buy">
+                                        <button class="group-hover:text-black btn-buy "><i
+                                                class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                                سبد</span></button>
+                                    </div>
+                                    <div class="group btn-faverid "><i
+                                            class="fa-regular fa-heart group-hover:text-black "></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full fast">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/banner-4.png" alt="" class="image-food w-3/4">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">کیس گیمینگ کولرمستر</h4>
+                                <div>
+                                    <h6 class="text-xs">مشخصات : </h6>
+                                    <div>
+                                        <span>پردازنده : </span>
+                                        <span>13900K</span>
+                                    </div>
+                                    <div>
+                                        <span>گرافیک</span>
+                                        <span>4090 super </span>
+                                    </div>
+                                    <div class="py-2 text-yellow-500">
+                                        <span>قیمت : </span>
+                                        <span>190.000.000 تومان</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row">
+                                    <div class="btn-buy">
+                                        <button class="group-hover:text-black btn-buy "><i
+                                                class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                                سبد</span></button>
+                                    </div>
+                                    <div class="group btn-faverid "><i
+                                            class="fa-regular fa-heart group-hover:text-black "></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full fast">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/case-7.png" alt="" class="image-food w-3/4">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">کیس گیمینگ کولرمستر</h4>
+                                <div>
+                                    <h6 class="text-xs">مشخصات : </h6>
+                                    <div>
+                                        <span>پردازنده : </span>
+                                        <span>13900K</span>
+                                    </div>
+                                    <div>
+                                        <span>گرافیک</span>
+                                        <span>4090 super </span>
+                                    </div>
+                                    <div class="py-2 text-yellow-500">
+                                        <span>قیمت : </span>
+                                        <span>190.000.000 تومان</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row">
+                                    <div class="btn-buy">
+                                        <button class="group-hover:text-black btn-buy "><i
+                                                class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                                سبد</span></button>
+                                    </div>
+                                    <div class="group btn-faverid "><i
+                                            class="fa-regular fa-heart group-hover:text-black "></i></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full fast">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/case-4.png" alt="" class="image-food w-3/4">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">کیس آماده دیپکول</h4>
+                                <div>
+                                    <h6 class="text-xs">مشخصات : </h6>
+                                    <div>
+                                        <span>پردازنده : </span>
+                                        <span>13900K</span>
+                                    </div>
+                                    <div>
+                                        <span>گرافیک</span>
+                                        <span>4090 super </span>
+                                    </div>
+                                    <div class="py-2 text-yellow-500">
+                                        <span>قیمت : </span>
+                                        <span>190.000.000 تومان</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row">
+                                    <div class="btn-buy">
+                                        <button class="group-hover:text-black btn-buy "><i
+                                                class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                                سبد</span></button>
+                                    </div>
+                                    <div class="group btn-faverid "><i
+                                            class="fa-regular fa-heart group-hover:text-black "></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full fast">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/case-5.png" alt="" class="image-food w-3/4">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">کیس اقتصادی آریا</h4>
+                                <div>
+                                    <h6 class="text-xs">مشخصات : </h6>
+                                    <div>
+                                        <span>پردازنده : </span>
+                                        <span>12600K</span>
+                                    </div>
+                                    <div>
+                                        <span>گرافیک</span>
+                                        <span>3060 super </span>
+                                    </div>
+                                    <div class="py-2 text-yellow-500">
+                                        <span>قیمت : </span>
+                                        <span>90.000.000 تومان</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row">
+                                    <div class="btn-buy">
+                                        <button class="group-hover:text-black btn-buy "><i
+                                                class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                                سبد</span></button>
+                                    </div>
+                                    <div class="group btn-faverid "><i
+                                            class="fa-regular fa-heart group-hover:text-black "></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- CONSOLE -->
+                    <li class="full joos">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/xbox.png" alt="" class="image-food w-full">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">ایکس باکس</h4>
+                                <div>
+                                    <h6 class="text-xs">مشخصات : </h6>
+                                    <div>
+                                        <span>ظرفیت : </span>
+                                        <span>1 ترابایت </span>
+                                    </div>
+                                    <div>
+                                        <span>تعداد دسته : </span>
+                                        <span>2 عدد</span>
+                                    </div>
+                                    <p class="text-xs">کنسول نسل نهمی پر قدرت و قوی</p>
+                                    <div class="py-2 text-yellow-500">
+                                        <span>قیمت : </span>
+                                        <span>35.000.000 تومان</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row">
+                                    <div class="btn-buy">
+                                        <button class="group-hover:text-black btn-buy "><i
+                                                class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                                سبد</span></button>
+                                    </div>
+                                    <div class="group btn-faverid "><i
+                                            class="fa-regular fa-heart group-hover:text-black "></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full joos">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/PS-4.png" alt="" class="image-food w-60">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">پلی استیشن 4 پرو</h4>
+                                <div>
+                                    <h6 class="text-xs">مشخصات : </h6>
+                                    <div>
+                                        <span>ظرفیت : </span>
+                                        <span>1 ترابایت </span>
+                                    </div>
+                                    <div>
+                                        <span>تعداد دسته : </span>
+                                        <span>2 عدد</span>
+                                    </div>
+                                    <p class="text-xs">کنسول نسل نهمی پر قدرت و قوی</p>
+                                    <div class="py-2 text-yellow-500">
+                                        <span>قیمت : </span>
+                                        <span>10.000.000 تومان</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row">
+                                    <div class="btn-buy">
+                                        <button class="group-hover:text-black btn-buy "><i
+                                                class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                                سبد</span></button>
+                                    </div>
+                                    <div class="group btn-faverid "><i
+                                            class="fa-regular fa-heart group-hover:text-black "></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full joos">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/ps-4-slim.png" alt="" class="image-food w-full">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">پلی استیشن 4 اسلیم</h4>
+                                <div>
+                                    <h6 class="text-xs">مشخصات : </h6>
+                                    <div>
+                                        <span>ظرفیت : </span>
+                                        <span>1 ترابایت </span>
+                                    </div>
+                                    <div>
+                                        <span>تعداد دسته : </span>
+                                        <span>2 عدد</span>
+                                    </div>
+                                    <p class="text-xs">کنسول نسل نهمی پر قدرت و قوی</p>
+                                    <div class="py-2 text-yellow-500">
+                                        <span>قیمت : </span>
+                                        <span>10.000.000 تومان</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row">
+                                    <div class="btn-buy">
+                                        <button class="group-hover:text-black btn-buy ">
+                                            <i class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                                سبد</span></button>
+                                    </div>
+                                    <div class="group btn-faverid "><i
+                                            class="fa-regular fa-heart group-hover:text-black "></i>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+
+                    <li class="full joos">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/ps5.webp" alt="" class="image-food w-3/4">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">PS5 Slim</h4>
+                                <div>
+                                    <h6 class="text-xs">مشخصات : </h6>
+                                    <div>
+                                        <span>ظرفیت : </span>
+                                        <span>1 ترابایت </span>
+                                    </div>
+                                    <div>
+                                        <span>تعداد دسته : </span>
+                                        <span>2 عدد</span>
+                                    </div>
+                                    <p class="text-xs">کنسول نسل نهمی پر قدرت و قوی</p>
+                                    <div class="py-2 text-yellow-500">
+                                        <span>قیمت : </span>
+                                        <span>30.000.000 تومان</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row">
+                                    <div class="btn-buy">
+                                        <button class="group-hover:text-black btn-buy ">
+                                            <i class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                                سبد</span></button>
+                                    </div>
+                                    <div class="group btn-faverid "><i
+                                            class="fa-regular fa-heart group-hover:text-black "></i>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+
+                    <li class="full joos">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/PS5-Digital-ModelGroup-Slim-Hero-1.webp" alt=""
+                                class="image-food w-full">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">PS5 Slim</h4>
+                                <div>
+                                    <span>ظرفیت : </span>
+                                    <span>1 ترابایت </span>
+                                </div>
+                                <div>
+                                    <span>تعداد دسته : </span>
+                                    <span>2 عدد</span>
+                                </div>
+                                <p class="text-xs">کنسول نسل نهمی پر قدرت و قوی</p>
+                                <div class="py-2 text-yellow-500">
+                                    <span>قیمت : </span>
+                                    <span>30.000.000 تومان</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-row">
+                                <div class="btn-buy">
+                                    <button class="group-hover:text-black btn-buy ">
+                                        <i class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                            سبد</span></button>
+                                </div>
+                                <div class="group btn-faverid "><i
+                                        class="fa-regular fa-heart group-hover:text-black "></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full joos">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/controler.png" alt="" class="image-food w-3/4">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">دسته PS5</h4>
+                                <div>
+                                    <span>اتصال : </span>
+                                    <span>بلوتوثی</span>
+                                </div>
+                                <div>
+                                    <span>رنگ : </span>
+                                    <span>ارتشی</span>
+                                </div>
+                                <p class="text-xs">کنسول نسل نهمی پر قدرت و قوی</p>
+                                <div class="py-2 text-yellow-500">
+                                    <span>قیمت : </span>
+                                    <span>3.000.000 تومان</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-row">
+                                <div class="btn-buy">
+                                    <button class="group-hover:text-black btn-buy ">
+                                        <i class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                            سبد</span></button>
+                                </div>
+                                <div class="group btn-faverid "><i
+                                        class="fa-regular fa-heart group-hover:text-black "></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- others -->
+                    <li class="full food">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/kibord-1.png" alt="" class="image-food w-full">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">کیبورد گیمینگ</h4>
+                                <div>
+                                    <span>کاربری : </span>
+                                    <span>گیمینگ</span>
+                                </div>
+                                <div>
+                                    <span>نوع اتصال : </span>
+                                    <span>سیم</span>
+                                </div>
+                                <p class="text-xs">گارانتی 2 ساله حامی</p>
+                                <div class="py-2 text-yellow-500">
+                                    <span>قیمت : </span>
+                                    <span>2.000.000 تومان</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-row">
+                                <div class="btn-buy">
+                                    <button class="group-hover:text-black btn-buy ">
+                                        <i class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                            سبد</span></button>
+                                </div>
+                                <div class="group btn-faverid "><i
+                                        class="fa-regular fa-heart group-hover:text-black "></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full food">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/kibord-2.png" alt="" class="image-food w-full">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">کیبورد اقتصادی</h4>
+                                <div>
+                                    <span>کاربری : </span>
+                                    <span>گیمینگ</span>
+                                </div>
+                                <div>
+                                    <span>نوع اتصال : </span>
+                                    <span>بی سیم</span>
+                                </div>
+                                <p class="text-xs">گارانتی 2 ساله حامی</p>
+                                <div class="py-2 text-yellow-500">
+                                    <span>قیمت : </span>
+                                    <span>5.000.000 تومان</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-row">
+                                <div class="btn-buy">
+                                    <button class="group-hover:text-black btn-buy ">
+                                        <i class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                            سبد</span></button>
+                                </div>
+                                <div class="group btn-faverid "><i
+                                        class="fa-regular fa-heart group-hover:text-black "></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full food">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/kibord-3.png" alt="" class="image-food w-full p-2">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">کیبورد گیمینگ</h4>
+                                <div>
+                                    <span>کاربری : </span>
+                                    <span>گیمینگ</span>
+                                </div>
+                                <div>
+                                    <span>نوع اتصال : </span>
+                                    <span>سیم</span>
+                                </div>
+                                <p class="text-xs">گارانتی 2 ساله حامی</p>
+                                <div class="py-2 text-yellow-500">
+                                    <span>قیمت : </span>
+                                    <span>5.000.000 تومان</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-row">
+                                <div class="btn-buy">
+                                    <button class="group-hover:text-black btn-buy ">
+                                        <i class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                            سبد</span></button>
+                                </div>
+                                <div class="group btn-faverid "><i
+                                        class="fa-regular fa-heart group-hover:text-black "></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full food">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/mouse-1.png" alt="" class="image-food w-3/4 p-3">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">موس گیمینگ</h4>
+                                <div>
+                                    <span>کاربری : </span>
+                                    <span>گیمینگ</span>
+                                </div>
+                                <div>
+                                    <span>نوع اتصال : </span>
+                                    <span>سیم</span>
+                                </div>
+                                <p class="text-xs">گارانتی 2 ساله حامی</p>
+                                <div class="py-2 text-yellow-500">
+                                    <span>قیمت : </span>
+                                    <span>30.000.000 تومان</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-row">
+                                <div class="btn-buy">
+                                    <button class="group-hover:text-black btn-buy ">
+                                        <i class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                            سبد</span></button>
+                                </div>
+                                <div class="group btn-faverid "><i
+                                        class="fa-regular fa-heart group-hover:text-black "></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full food">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/mouse-2.png" alt="" class="image-food w-full p-2">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">موس گیمینگ</h4>
+                                <div>
+                                    <span>کاربری : </span>
+                                    <span>گیمینگ</span>
+                                </div>
+                                <div>
+                                    <span>نوع اتصال : </span>
+                                    <span>سیم</span>
+                                </div>
+                                <p class="text-xs">گارانتی 2 ساله حامی</p>
+                                <div class="py-2 text-yellow-500">
+                                    <span>قیمت : </span>
+                                    <span>30.000.000 تومان</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-row">
+                                <div class="btn-buy">
+                                    <button class="group-hover:text-black btn-buy ">
+                                        <i class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                            سبد</span></button>
+                                </div>
+                                <div class="group btn-faverid "><i
+                                        class="fa-regular fa-heart group-hover:text-black "></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full food">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/mouse-3.png" alt="" class="image-food w-full">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">موس گیمینگ</h4>
+                                <div>
+                                    <span>کاربری : </span>
+                                    <span>گیمینگ</span>
+                                </div>
+                                <div>
+                                    <span>نوع اتصال : </span>
+                                    <span>سیم</span>
+                                </div>
+                                <p class="text-xs">گارانتی 2 ساله حامی</p>
+                                <div class="py-2 text-yellow-500">
+                                    <span>قیمت : </span>
+                                    <span>30.000.000 تومان</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-row">
+                                <div class="btn-buy">
+                                    <button class="group-hover:text-black btn-buy ">
+                                        <i class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                            سبد</span></button>
+                                </div>
+                                <div class="group btn-faverid "><i
+                                        class="fa-regular fa-heart group-hover:text-black "></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full food">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/headfone-1.png" alt="" class="image-food w-full">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">هدفون گیمینگ</h4>
+                                <div>
+                                    <span>کاربری : </span>
+                                    <span>گیمینگ</span>
+                                </div>
+                                <div>
+                                    <span>نوع اتصال : </span>
+                                    <span>بلوتوث</span>
+                                </div>
+                                <p class="text-xs">گارانتی 2 ساله حامی</p>
+                                <div class="py-2 text-yellow-500">
+                                    <span>قیمت : </span>
+                                    <span>30.000.000 تومان</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-row">
+                                <div class="btn-buy">
+                                    <button class="group-hover:text-black btn-buy ">
+                                        <i class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                            سبد</span></button>
+                                </div>
+                                <div class="group btn-faverid "><i
+                                        class="fa-regular fa-heart group-hover:text-black "></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full food">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/headfone-2.png" alt="" class="image-food w-full">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">هدفون اقتصادی</h4>
+                                <div>
+                                    <span>کاربری : </span>
+                                    <span>گیمینگ</span>
+                                </div>
+                                <div>
+                                    <span>نوع اتصال : </span>
+                                    <span>بلوتوث</span>
+                                </div>
+                                <p class="text-xs">گارانتی 2 ساله حامی</p>
+                                <div class="py-2 text-yellow-500">
+                                    <span>قیمت : </span>
+                                    <span>30.000.000 تومان</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-row">
+                                <div class="btn-buy">
+                                    <button class="group-hover:text-black btn-buy ">
+                                        <i class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                            سبد</span></button>
+                                </div>
+                                <div class="group btn-faverid "><i
+                                        class="fa-regular fa-heart group-hover:text-black "></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full food">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/headfone-3.png" alt="" class="image-food w-full">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">هدفون گیمینگ</h4>
+                                <div>
+                                    <span>کاربری : </span>
+                                    <span>گیمینگ</span>
+                                </div>
+                                <div>
+                                    <span>نوع اتصال : </span>
+                                    <span>سیم</span>
+                                </div>
+                                <p class="text-xs">گارانتی 2 ساله حامی</p>
+                                <div class="py-2 text-yellow-500">
+                                    <span>قیمت : </span>
+                                    <span>30.000.000 تومان</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-row">
+                                <div class="btn-buy">
+                                    <button class="group-hover:text-black btn-buy ">
+                                        <i class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                            سبد</span></button>
+                                </div>
+                                <div class="group btn-faverid "><i
+                                        class="fa-regular fa-heart group-hover:text-black "></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="full food">
+                        <div class="box-food">
+                            <img src="./assets/images/prodouct/headfone-4.png" alt="" class="image-food w-full">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">هدفون گیمینگ</h4>
+                                <div>
+                                    <span>کاربری : </span>
+                                    <span>گیمینگ</span>
+                                </div>
+                                <div>
+                                    <span>نوع اتصال : </span>
+                                    <span>بلوتوث</span>
+                                </div>
+                                <p class="text-xs">گارانتی 2 ساله حامی</p>
+                                <div class="py-2 text-yellow-500">
+                                    <span>قیمت : </span>
+                                    <span>30.000.000 تومان</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-row">
+                                <div class="btn-buy">
+                                    <button class="group-hover:text-black btn-buy ">
+                                        <i class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                            سبد</span></button>
+                                </div>
+                                <div class="group btn-faverid "><i
+                                        class="fa-regular fa-heart group-hover:text-black "></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- End of menu -->
+
+    <!-- start review -->
+    <section class="review my-20" id="review">
+        <div class="container">
+            <div>
+                <h2 class="text-center font-bold text-lg">نظرات شما</h2>
+                <br>
+                <div class="w-60 h-1 bg-yellow-500 mx-auto"></div>
+                <br>
+                <p></p>
+            </div>
+            <div class="swiper py-10">
+                <ul class="swiper-wrapper py-10">
+                    <li class="swiper-slide">
+                        <div class="flex flex-col gap-5 rounded-lg p-6 bg-favariteColer text-white">
+                            <div class="flex items-center">
+                                <img src="./assets/images/contact/person-1.jpg" alt="" class="w-12 h-12 rounded-full">
+                                <div class="ml-2">
+                                    <p>Mohammad Kazemi</p>
+                                    <p class="text-red-500 text-end text-sm">هفته پیش</p>
+                                </div>
+                                <i class="fa-solid fa-comment text-white text-4xl ml-auto dark:text-secondaryColor"></i>
+                            </div>
+                            <p class="paragraf">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente sunt
+                                facilis illo dignissimos quidem.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="flex flex-col gap-5 rounded-lg p-6 bg-favariteColer text-white">
+                            <div class="flex items-center">
+                                <img src="./assets/images/contact/person-2.jpg" alt="" class="w-12 h-12 rounded-full">
+                                <div class="ml-2">
+                                    <p>Mohammad Kazemi</p>
+                                    <p class="text-red-500 text-end text-sm">هفته پیش</p>
+                                </div>
+                                <i class="fa-solid fa-comment text-white text-4xl ml-auto dark:text-secondaryColor"></i>
+                            </div>
+                            <p class="paragraf">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente sunt
+                                facilis illo dignissimos quidem.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="flex flex-col gap-5 rounded-lg p-6 bg-favariteColer text-white">
+                            <div class="flex items-center">
+                                <img src="./assets/images/contact/person-3.jpg" alt="" class="w-12 h-12 rounded-full">
+                                <div class="ml-2">
+                                    <p>Mohammad Kazemi</p>
+                                    <p class="text-red-500 text-end text-sm">هفته پیش</p>
+                                </div>
+                                <i class="fa-solid fa-comment text-white text-4xl ml-auto dark:text-secondaryColor"></i>
+                            </div>
+                            <p class="paragraf">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente sunt
+                                facilis illo dignissimos quidem.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="flex flex-col gap-5 rounded-lg p-6 bg-favariteColer text-white">
+                            <div class="flex items-center">
+                                <img src="./assets/images/contact/person-4.jpg" alt="" class="w-12 h-12 rounded-full">
+                                <div class="ml-2">
+                                    <p>Mohammad Kazemi</p>
+                                    <p class="text-red-500 text-end text-sm">هفته پیش</p>
+                                </div>
+                                <i class="fa-solid fa-comment text-white text-4xl ml-auto dark:text-secondaryColor"></i>
+                            </div>
+                            <p class="paragraf">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente sunt
+                                facilis illo dignissimos quidem.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="flex flex-col gap-5 rounded-lg p-6 bg-favariteColer text-white">
+                            <div class="flex items-center">
+                                <img src="./assets/images/contact/person-5.jpg" alt="" class="w-12 h-12 rounded-full">
+                                <div class="ml-2">
+                                    <p>Mohammad Kazemi</p>
+                                    <p class="text-red-500 text-end text-sm">هفته پیش</p>
+                                </div>
+                                <i class="fa-solid fa-comment text-white text-4xl ml-auto dark:text-secondaryColor"></i>
+                            </div>
+                            <p class="paragraf">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente sunt
+                                facilis illo dignissimos quidem.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="flex flex-col gap-5 rounded-lg p-6 bg-favariteColer text-white">
+                            <div class="flex items-center">
+                                <img src="./assets/images/contact/person-6.webp" alt="" class="w-12 h-12 rounded-full">
+                                <div class="ml-2">
+                                    <p>Mohammad Kazemi</p>
+                                    <p class="text-red-500 text-end text-sm">هفته پیش</p>
+                                </div>
+                                <i class="fa-solid fa-comment text-white text-4xl ml-auto dark:text-secondaryColor"></i>
+                            </div>
+                            <p class="paragraf">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente sunt
+                                facilis illo dignissimos quidem.
+                            </p>
+                        </div>
+                    </li>
+
+
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- End of review -->
+
+    <!--  -->
+    <section class="call" id="call">
+        <div class="flex w-full min-h-screen justify-center items-center bg-slate-200">
+            <div class="flex flex-col space-y-6 bg-slate-600 w-full max-w-4xl p-8 rounded-xl shadow-lg">sssss</div>
+            <div class="flex flex-col justify-between">
+                <div>
+                    <h2>تماس با ما : </h2>
+                    <p class="text-clip max-h-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor natus commodi obcaecati totam
+                        quae placeat. Atque reiciendis, quia tempore quae ipsum, incidunt temporibus alias molestiae hic
+                        dolorum, natus saepe veniam?
+                    </p>
+                </div>
+                <div></div>
+                <div></div>
+            </div>
+            <div></div>
+        </div>
+    </section>
+
+    <!--  -->
+    <section class="w-[100%]">
+        <div class="w-[100%] ">
+            <img src="./assets/images/banner-img/download.jpg" alt="" class="w-[100%] m-auto">
+        </div>
+    </section>
+
+    <!-- start contact -->
+    <section class="contact bg-yellow-400 py-16" id="contact" style="direction: rtl;">
+        <div class="container flex flex-col gap-5 md:items-center md:flex-row">
+            <div class="space-y-4 md:flex-1">
+                <h2 class="font-bold text-lg text-black">نظرات خود را به اشتراک بگذارید</h2>
+                <p class="text-gray-900">شما می توانید تجربه خود را با دیگران به اشتراک بگذارید</p>
+            </div>
+            <div class="flex flex-col gap-3 md:flex-row md:flex-1">
+                <input type="text" placeholder="نظر شما" class="p-2 text-black rounded-lg outline-none md:w-full">
+                <a href="#"
+                    class="flex items-center justify-center gap-2 bg-black text-white p-2 px-4 rounded-lg hover:opacity-75">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span class="text-white">ارسال</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- End of contact -->
+
+
+
+    <!-- start footer -->
+    <footer>
+        <section style="direction: rtl;">
+            <div class="container">
+                <ul
+                    class="grid grid-cols-1 items-start lg:grid-cols-4 border-y-2 py-10 my-10 dark:border-secondaryColor">
+                    <li>
+                        <div class="text-lg">
+                            <a href="#" class="uppercase text-orange-600">
+                                PRO <span class="text-black dark:text-white">MIX</span>
+                            </a>
+                        </div>
+                        <div class="flex flex-row gap-3 py-3">
+                            <img src="./assets/images/123.png" alt="" class="w-20 h-30 dark:bg-white">
+                            <img src="./assets/images/456.svg" alt="" class="w-20 h-30 dark:bg-white">
+                        </div>
+
+                    </li>
+
+                    <li>
+                        <div class="flex flex-col gap-3 py-1">
+                            <h3 class="text-lg">سوالات متداول : </h3>
+                            <a href="#">
+                                <i class="fa-solid fa-paperclip dark:text-secondaryColor text-xl"></i>
+                                <span class="pr-2 text-xs hover:text-secondaryColor">نحوه ثبت نام</span>
+                            </a>
+                            <a href="#">
+                                <i class="fa-solid fa-paperclip dark:text-secondaryColor text-xl"></i>
+                                <span class="pr-2 text-xs hover:text-secondaryColor">نحوه پرداخت</span>
+                            </a>
+                            <a href="#">
+                                <i class="fa-solid fa-paperclip dark:text-secondaryColor text-xl"></i>
+                                <span class="pr-2 text-xs hover:text-secondaryColor">نحوه ارسال</span>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="space-y-8">
+                        <div class="space-y-2">
+                            <h3 class="text-lg">شماره تماس : </h3>
+                            <p class="flex items-center gap-2 text-xs cursor-pointer">
+                                <i class="fa-solid fa-phone dark:text-secondaryColor text-xl"></i>
+                                0090100200
+                            </p>
+                        </div>
+                        <div class="space-y-2">
+                            <h3 class="text-lg">آدرس ایمیل : </h3>
+                            <p class="flex items-center gap-2 text-xs cursor-pointer">
+                                <i class="fa-solid fa-envelope dark:text-secondaryColor text-xl"></i>
+                                choosefood@gmail.com
+                            </p>
+                        </div>
+
+                    </li>
+
+                    <li class="space-y-8">
+                        <div class="space-y-2">
+                            <h3 class="text-lg">آدرس دفتر : </h3>
+                            <p class="flex items-center gap-2 text-xs">
+                                <i class="fa-solid fa-location-dot dark:text-secondaryColor text-xl"></i>
+                                قم خیابان صدوقی پلاک 10
+                            </p>
+                        </div>
+                        <div class="space-y-2">
+                            <h3 class="text-lg">ما را دنبال کنید : </h3>
+                            <div class="space-x-4 cursor-pointer">
+                                <i class="fa-brands fa-facebook dark:text-secondaryColor text-2xl"></i>
+                                <i class="fa-brands fa-twitter dark:text-secondaryColor text-2xl pr-2"></i>
+                                <i class="fa-brands fa-instagram dark:text-secondaryColor text-2xl "></i>
+                                <i class="fa-brands fa-linkedin dark:text-secondaryColor text-2xl"></i>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <div class="flex flex-col items-center py-5 md:flex-row md:justify-between">
+                        <p>Designed by Mahdi Zahedi</p>
+                    </div>
+
+                </ul>
+            </div>
+        </section>
+    </footer>
+    <!-- End of footer -->
+
+    <!-- top button -->
+    <a href="#"
+        class="fixed right-4 bottom-4 bg-yellow-400 shadow-sm inline-block px-4 py-2 rounded-full text-lg text-black z-50 hover:-translate-y-1 ease-in duration-200">
+        <i class="fa-solid fa-up-long"></i>
+    </a>
+    <!-- top button -->
+
+
+
+
+    <!-- start script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 400,
+            spaceBetween: 30,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false
+            },
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
+            grabCursor: true,
+            breakpoints: {
+                // when window width is >= 640px
+                640: {
+                    slidesPerView: 1,
+                },
+                // when window width is >= 768px
+                768: {
+                    slidesPerView: 2,
+                },
+                // when window width is >= 1024px
+                1024: {
+                    slidesPerView: 3,
+                }
+            }
+
+        });
+    </script>
+    <script src="./assets/js/swiper.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <!-- End of script -->
+</body>
+
+</html>
