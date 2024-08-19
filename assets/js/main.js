@@ -110,18 +110,41 @@ let fetchData = async () => {
     let data = await res.json()
     data.forEach((element) => {
         html += `
-           <li class="full fast-food">
-                <div class="box-food">
-                    <img src="${element.image}" alt="">
-                </div>
-                <div>
-                    <div>
-                        <h4 class="font-bold text-lg">${element.name}/h4>
-                        <p class="text-xs">${element.brand}</p>
-                        <p class="py-2 text-yellow-500">${element.price}</p>
-                    </div>
-                </div>
-            </li>`
+        <li class="full fast">
+                        <div class="box-food">
+                            <img src="${document.image}" alt="" class="image-food w-3/4">
+                        </div>
+                        <div>
+                            <div>
+                                <h4 class="font-bold text-lg">${document.name}</h4>
+                                <div>
+                                    <h6 class="text-xs">مشخصات : </h6>
+                                    <div>
+                                        <span>پردازنده : </span>
+                                        <span>${document.brand}</span>
+                                    </div>
+                                    <div>
+                                        <span>گرافیک</span>
+                                        <span>4080 super </span>
+                                    </div>
+                                    <div class="py-2 text-yellow-500">
+                                        <span>قیمت : </span>
+                                        <span>${document.price} تومان</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row">
+                                    <div class="btn-buy">
+                                        <button class="group-hover:text-black btn-buy "><i
+                                                class="fa-solid fa-cart-shopping"></i><span> </span><span>افزودن به
+                                                سبد</span></button>
+                                    </div>
+                                    <div class="group btn-faverid "><i
+                                            class="fa-regular fa-heart group-hover:text-black "></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>`
+
 
             document.querySelector("ul.item").innerHTML=html
     })

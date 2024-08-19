@@ -1,59 +1,52 @@
 {
     "prouduct": [
         {
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4qCk4nHAPiObZ8vGG8pylU6g0g3zY_o3prQ&s",
-            "name": "ggg",
-            "brand": "ggg",
-            "price":"ggg"
+            "image": "../images/prodouct/banner-2.png",
+            "name": "کیس آماده کولرمستر",
+            "brand": "14600k",
+            "price": "120,000,000"
         },
-
         {
-            "image": "https://bmw.scene7.com/is/image/BMW/BMW_M_Performance:3to2?fmt=webp&wid=2560&hei=1707",
-            "name": "eeee",
-            "brand": "eeee",
-            "price":"eeee"
+            "image": "../images/prodouct/banner-3.png",
+            "name": "کیس آماده لیان لی",
+            "brand": "14900K",
+            "price": "140,000,000"
         },
-
         {
-            "image": "https://",
-            "name": "edgeewagweagg",
-            "brand": "sdgvweesg",
-            "price":"sefgSEgse"
+            "image": "../images/prodouct/banner-4.png",
+            "name": "کیس آماده دیپکول",
+            "brand": "13400KS",
+            "price": "150,000,000"
         },
-
         {
-            "image": "",
-            "name": "",
-            "brand": "",
-            "price":""
+            "image": "../images/prodouct/banner-img.png",
+            "name": "کیس آماده دیپکول",
+            "brand": "12600K",
+            "price": "120,000,000"
         },
-
         {
-            "image": "",
-            "name": "",
-            "brand": "",
-            "price":""
+            "image": "../images/prodouct/case-4.png",
+            "name": "کیس آماده کولر مستر",
+            "brand": "13900K",
+            "price": "140,000,000"
         },
-
         {
-            "image": "",
-            "name": "",
-            "brand": "",
-            "price":""
+            "image": "../images/prodouct/case-5.png",
+            "name": "کیس اقتصادی آریا",
+            "brand": "14700K",
+            "price": "80,000,000"
         },
-
         {
-            "image": "",
-            "name": "",
-            "brand": "",
-            "price":""
+            "image": "../images/prodouct/case-6.png",
+            "name": "کیس گیمینگ لیان لی",
+            "brand": "13900K",
+            "price": "120,000,000"
         },
-
         {
-            "image": "",
-            "name": "",
-            "brand": "",
-            "price":""
+            "image": "../images/prodouct/case-7.png",
+            "name": "کیس اقتصادی لیان لی",
+            "brand": "13400",
+            "price": "60,000,000"
         }
     ]
 }
