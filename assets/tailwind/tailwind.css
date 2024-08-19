@@ -9,7 +9,9 @@
 @font-face {
     font-family: font-2;
     src: url(../font/font-2/fad613fbe6be4ad15748e9ccdfd8b9fa.woff2);
-
+    src: url(../font/font-2/StFlutterIcon.eot);
+    src: url(../font/font-2/StFlutterIcon.ttf);
+    src: url(../font/font-2/StFlutterIcon.woff);
 }
 
 @tailwind base;

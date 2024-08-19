@@ -112,16 +112,16 @@ let fetchData = async () => {
         html += `
         <li class="full fast">
                         <div class="box-food">
-                            <img src="${document.image}" alt="" class="image-food w-3/4">
+                            <img src="${element.image}" alt="" class="image-food w-3/4">
                         </div>
                         <div>
                             <div>
-                                <h4 class="font-bold text-lg">${document.name}</h4>
+                                <h4 class="font-bold text-lg">${element.name}</h4>
                                 <div>
                                     <h6 class="text-xs">مشخصات : </h6>
                                     <div>
                                         <span>پردازنده : </span>
-                                        <span>${document.brand}</span>
+                                        <span>${element.brand}</span>
                                     </div>
                                     <div>
                                         <span>گرافیک</span>
@@ -129,7 +129,7 @@ let fetchData = async () => {
                                     </div>
                                     <div class="py-2 text-yellow-500">
                                         <span>قیمت : </span>
-                                        <span>${document.price} تومان</span>
+                                        <span>${element.price} تومان</span>
                                     </div>
                                 </div>
                                 <div class="flex flex-row">
