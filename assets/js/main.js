@@ -149,7 +149,16 @@ start.reveal(".card-1", {origin: "left"})
 start.reveal(".card-2", {origin: "top"})
 start.reveal(".card-3", {origin: "right"})
 
+start.reveal(".matherbord", {origin: "right"})
+
+start.reveal(".review", {origin: "top"})
+
+start.reveal(".footer", {origin: "bottom"})
+
+
+
 // End of Animation //
+
 
 
 
