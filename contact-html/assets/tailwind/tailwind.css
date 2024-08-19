@@ -1,3 +1,11 @@
+@font-face {
+    font-family: iransans;
+    src: url(../font/iransans.woff2);
+    src: url(../font/IRANSansWebFaNum.eot);
+    src: url(../font/IRANSansWebFaNum.ttf);
+    src: url(../font/IRANSansWebFaNum.woff);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
